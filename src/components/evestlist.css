@@ -1,0 +1,94 @@
+.event-list-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.event-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.event-item {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.event-title {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.event-description {
+    margin-bottom: 10px;
+}
+
+.event-info {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+/* In your CSS file (e.g., evestlist.css) */
+
+.edit-form {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.edit-form h2 {
+    margin-bottom: 10px;
+}
+
+.edit-form form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.edit-form input,
+.edit-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.edit-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-form button:hover {
+    background-color: #0056b3;
+}
+/* In your CSS file (e.g., evestlist.css) */
+
+.delete-button {
+    padding: 10px 20px;
+    background-color: #dc3545; /* Red color for delete button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.edit-button {
+    padding: 10px 20px;
+    background-color: #65df5a; /* Red color for delete button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.delete-button:hover,
+.edit-button:hover {
+    background-color: #75c064; /* Darker red on hover */
+}
